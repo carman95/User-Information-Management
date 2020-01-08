@@ -12,13 +12,13 @@
 - 删除用户功能：删除单条，删除多条
 - 修改用户信息功能
 ### 功能展示
-- 管理员登陆页面
+- 管理员登陆页面<br>
 ![image](./util/images/login.jpg)
-- 查询所有用户信息页面
+- 查询所有用户信息页面<br>
 ![image](./util/images/find.jpg)
-- 添加用户页面
+- 添加用户页面<br>
 ![image](./util/images/add.jpg)
-- 修改用户信息页面
+- 修改用户信息页面<br>
 ![image](./util/images/change.jpg)
 
 ### 数据库
