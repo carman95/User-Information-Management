@@ -17,10 +17,10 @@ import java.util.Map;
 public class FindUserByPageServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
-        if(request.getSession().getAttribute("loginUser")==null){
-            request.getRequestDispatcher("/login.jsp").forward(request,response);
-            return;
-        }
+//        if(request.getSession().getAttribute("loginUser")==null){
+//            request.getRequestDispatcher("/login.jsp").forward(request,response);
+//            return;
+//        }
         String currentPage = request.getParameter("currentPage");//当前页码
         String rows = request.getParameter("rows");//每页显示条数
         if(currentPage == null || "".equals(currentPage)){
